@@ -1,0 +1,23 @@
+name: mdns_plugin
+description: 
+  mDNS Service discovery plugin for iOS & Android which generates
+  events based on discovery of services on the local network.
+version: 1.1.4
+author: David Thorpe <djt@mutablelogic.com>
+homepage: https://github.com/djthorpe/flutter/
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.mutablelogic.mdns_plugin
+    pluginClass: MDNSPlugin
